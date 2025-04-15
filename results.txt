@@ -1,0 +1,71 @@
+🔹 Initial Sample Structure:
+'cells': [400, 2564, 4]
+
+'node_type': [400, 840, 1]
+
+'mesh_pos': [400, 840, 3]
+
+'world_pos': [400, 840, 3]
+
+'stress': [400, 840, 1]
+
+🔹 After add_targets:
+'cells': [398, 2564, 4]
+
+'node_type': [398, 840, 1]
+
+'mesh_pos': [398, 840, 3]
+
+'world_pos': [398, 840, 3]
+
+'target|world_pos': [398, 840, 3] ✅ (new field added)
+
+'stress': [398, 840, 1]
+
+🔹 After split_and_preprocess (per-sample level):
+'cells': [2586, 4]
+
+'node_type': [869, 1]
+
+'mesh_pos': [869, 3]
+
+'world_pos': [869, 3]
+
+'target|world_pos': [869, 3]
+
+'stress': [869, 1]🔹 Initial Sample Structure:
+'cells': [400, 2564, 4]
+
+'node_type': [400, 840, 1]
+
+'mesh_pos': [400, 840, 3]
+
+'world_pos': [400, 840, 3]
+
+'stress': [400, 840, 1]
+
+🔹 After add_targets:
+'cells': [398, 2564, 4]
+
+'node_type': [398, 840, 1]
+
+'mesh_pos': [398, 840, 3]
+
+'world_pos': [398, 840, 3]
+
+'target|world_pos': [398, 840, 3] ✅ (new field added)
+
+'stress': [398, 840, 1]
+
+🔹 After split_and_preprocess (per-sample level):
+'cells': [2586, 4]
+
+'node_type': [869, 1]
+
+'mesh_pos': [869, 3]
+
+'world_pos': [869, 3]
+
+'target|world_pos': [869, 3]
+
+'stress': [869, 1]
